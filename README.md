@@ -30,20 +30,37 @@ npx hardhat run scripts/deploy.js
 ## Installation
 
 1. Clone this repository to your local machine:
+
+```bash
    git clone https://github.com/<your-repo>.git
+```
 
 2. install the necessary dependencies:
+
+```bash
    npm install // for backend
    cd client
    npm install // for frontend
+```
 
 ## Running the Dapp
 
 1. Start a local Ethereum network using Hardhat:
+
+```bash
    npx hardhat node
+```
+
 2. In a separate terminal window, compile and deploy the smart contract:
+
+```bash
    npx hardhat compile
    npx hardhat migrate
+```
+
 3. for running frontend
+
+```bash
    cd client
    npm run dev
+```
