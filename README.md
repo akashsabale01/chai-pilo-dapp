@@ -1,6 +1,20 @@
-# Chai Dapp
+# Chai dApp
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+- Chai Dapp is Full-Stack Decentralized application (dApp) that allows creators, artists and small business owners to receive financial support from their audience.
+- The platform makes it easy for supporters to "buy a chai" (a small monetory contribution) for thier favorite creators as way to show appreciation.
+- Deployed ReactJs Frontend on netlify & connected it with blockchain by using Ether.js.
+- Deployed & Tested Smart Contract On Local & Goerli network of Ethereum blockchain.
+
+## Live Demo:
+[Chai Pilo dApp](https://chaipilo.netlify.app/)
+
+
+## Technologies:
+ - **Frontend:** ReactJs, Ether.js
+ - **Backend:** Solidity, Hardhat, Ethereum, Blockchain
+ - **Other:** Metamask for making Ethereum blockchain transaction
+
+## Instructions:
 
 Try running some of the following tasks:
 
@@ -11,7 +25,7 @@ npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
 
-## For Local Net
+### For Local Net
 
 ```bash
     npx hardhat node  // this is for running local blockchain
@@ -19,7 +33,7 @@ npx hardhat run scripts/deploy.js
 
 ```
 
-## For Goerli Test Net
+### For Goerli Test Net
 
 ```bash
     npm i dotenv
